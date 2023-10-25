@@ -8,9 +8,6 @@ word_length = len(chosen_word)
 end_of_game = False 
 lives = 6
 
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
-
 #Create blanks
 display = []
 for _ in range(word_length):
